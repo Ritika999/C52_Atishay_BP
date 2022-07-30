@@ -1,0 +1,46 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+.header * {
+    border: solid;
+} 
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: purple;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+}
+
+
